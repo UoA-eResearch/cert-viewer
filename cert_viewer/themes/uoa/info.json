@@ -1,0 +1,9 @@
+{
+  "application": "cert_viewer",
+  "identifier": "uoa",
+  "name": "UoA",
+  "author": "UoA-eResearch",
+  "license": "MIT",
+  "description": "Based on the original cert-viewer styling",
+  "version": "1.0.0"
+}

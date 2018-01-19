@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "http://blockcert.nectar.auckland.ac.nz/issuer/the-issuer.json",
+  "type": "RevocationList",
+  "issuer": "http://blockcert.nectar.auckland.ac.nz/issuer/the-issuer.json",
+  "revokedAssertions": [
+  ]
+}

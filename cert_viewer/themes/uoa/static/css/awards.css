@@ -1,0 +1,96 @@
+/* styles for award.html pages */
+
+.subtitle {
+    margin: 3px 0px 3px 0px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+#signature-img {
+    max-height: 40px;
+    margin-bottom: 70px;
+}
+
+.signature-info {
+    line-height: 1.2;
+}
+
+#verify-button {
+    margin-right: 5px;
+}
+
+#progress-msg {
+    font-size: 12px;
+    text-align: left;
+    display: none;
+    border-top: 1px black dashed;
+    border-bottom: 1px black dashed;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    padding-top: 12px;
+}
+
+#verified, #not-verified {
+    display: none;
+}
+
+#verified-icon, #not-verified-icon {
+    max-height: 25px;
+}
+
+.output-txt {
+    line-height: 1.5;
+}
+
+@media print {
+    div.divToPrint {
+        width: 90%;
+        height: 100%;
+        border: none;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+.name {
+  font-weight: bold;
+}
+
+.cert-details {
+  color: rgb(0, 70, 127);
+  margin-top: -50px;
+}
+
+hr {
+  border-top: 3px solid rgb(0, 70, 127);
+  width: 100%;
+}
+
+.divToPrint {
+  border: 1px solid rgb(0, 70, 127);
+  width: 702px;
+  color: #a6a6a6;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+.divToPrint .row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.divToPrint .row div {
+  width: 100%;
+}
+
+.btn {
+  background-color: #696969;
+  border: none;
+  font-size: 20px;
+}
