@@ -1,6 +1,6 @@
 cert-core>=2.1.8
 cert-schema>=2.1.5
-cert-verifier>=2.0.13
+git+https://github.com/UoA-eResearch/cert-verifier.git
 configargparse>=0.13.0
 flasgger>=0.8.3
 Flask>=1.0

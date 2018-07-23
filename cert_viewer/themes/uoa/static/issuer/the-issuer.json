@@ -1,7 +1,7 @@
 {
-  "id": "http://blockcert.nectar.auckland.ac.nz/issuer/the-issuer.json",
-  "url": "http://blockcert.nectar.auckland.ac.nz/certificates/",
-  "introductionURL": "http://blockcert.nectar.auckland.ac.nz/intro/",
+  "id": "https://blockcert.auckland.ac.nz/issuer/the-issuer.json",
+  "url": "https://blockcert.auckland.ac.nz/certificates/",
+  "introductionURL": "https://blockcert.auckland.ac.nz/intro/",
   "name": "University of Auckland",
   "email": "nick.young@auckland.ac.nz",
   "issuerKeys": [
