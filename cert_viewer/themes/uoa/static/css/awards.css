@@ -94,3 +94,13 @@ hr {
   border: none;
   font-size: 20px;
 }
+
+#logo {
+    position: relative;
+    top: -340px;
+    left: 80px;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    margin-bottom: -250px;
+}
