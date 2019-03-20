@@ -23,7 +23,7 @@ def update_app_config(app, config):
         THEME=config.theme,
     )
     recent_certs = update_recent_certs()
-    app.config['RECENT_CERT_IDS'] = recent_certs[-10:]
+    app.config['RECENT_CERT_IDS'] = recent_certs
 
 def update_recent_certs():
     cert_path = "cert_data"
@@ -31,7 +31,7 @@ def update_recent_certs():
     for file in listdir(cert_path):
         if file[len(file) - 4:] == "json":
             certs_folder.append(file[:len(file) - 5])
-    
+    certs_folder.sort()
     return certs_folder
 
 def render(template, **context):
