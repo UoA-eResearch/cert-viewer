@@ -56,6 +56,10 @@
     a {
         text-decoration: none !important;
     }
+
+    #logo {
+      width: auto;
+    }
 }
 
 .name {
@@ -99,8 +103,7 @@ hr {
     position: relative;
     top: -340px;
     left: 80px;
-    width: 250px;
-    height: 250px;
+    height: 200px;
     background-color: transparent;
     margin-bottom: -250px;
 }
