@@ -5,6 +5,7 @@ services:
 
   web:
     build: .
+    restart: always
     image: blockcerts/certviewer:latest
     volumes:
       - "~/cert-issuer/conf/data/blockchain_certificates/:/cert-viewer/cert_data"
