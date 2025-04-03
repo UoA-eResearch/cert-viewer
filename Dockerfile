@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.9
 MAINTAINER Kim Duffy "kimhd@mit.edu"
 
 WORKDIR /cert-viewer
